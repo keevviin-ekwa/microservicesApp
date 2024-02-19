@@ -48,6 +48,11 @@ namespace Discount.API.Extensions
                     command.ExecuteNonQuery();
 
                     logger.LogInformation("Migrated postresql database.");
+
+
+
+
+
                 }
                 catch (Exception ex)
                 {
